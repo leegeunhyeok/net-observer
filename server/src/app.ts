@@ -1,5 +1,6 @@
 import express from 'express';
 import path from 'path';
+import './util/secrets';
 
 // Controllers (route handlers)
 import * as homeController from './controllers/home';
